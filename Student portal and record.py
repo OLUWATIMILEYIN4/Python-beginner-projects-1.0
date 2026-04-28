@@ -1,3 +1,13 @@
+"""
+STUDENT LOGIN & GRADING PORTAL
+Features: 
+- Validates username/password length
+- Maps department abbreviations (MCE, MEE, etc.)
+- Calculates averages and assigns grades
+"""
+
+# Your code starts here...
+
 #Student login portal 
 username = input('Create a username: ')
 if len(username) < 5:
